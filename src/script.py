@@ -4,7 +4,7 @@ from dotenv import dotenv_values
 from web3 import Web3
 
 CURR_PATH = os.path.dirname(__file__)
-env = dotenv_values(os.path.join(CURR_PATH, '.env'))
+env = dotenv_values(os.path.join(CURR_PATH, '../.env'))
 
 node_provider = env['RPC_NODE_URL_LOCAL']
 
