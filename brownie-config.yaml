@@ -1,2 +1,5 @@
 networks:
-  default:ganache-local
+    default:ganache-local
+
+dependencies:
+    - openzeppelin/contracts/access/Ownable.sol
